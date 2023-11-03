@@ -1,0 +1,47 @@
+{
+    "contacts":[
+        {
+            "name":"Amal N",
+            "profile":"https://i.postimg.cc/t7G6qFh8/uu1.jpg",
+            "email":"amal123@gmail.com",
+            "mobile":"+919897654321",
+            "location":"Kochi"
+        },
+        {
+            "name":"Arun Narayanan",
+            "profile":"https://i.postimg.cc/wB4N8PFG/uu3.jpg",
+            "email":"ArunNarayanan@gmail.com",
+            "mobile":"+919897656666",
+            "location":"Calicut"
+        },
+        {
+            "name":"Neha",
+            "profile":"https://i.postimg.cc/GtyGjQFS/uu2.jpg",
+            "email":"Neha123@gmail.com",
+            "mobile":"+914447654321",
+            "location":"Trissur"
+        },
+        {
+            "name":"Anu NV",
+            "profile":"https://i.postimg.cc/qMrzY447/uu4.jpg",
+            "email":"anunv@gmail.com",
+            "mobile":"+919232324321",
+            "location":"Idukki"
+        },
+        {
+            "name":"Vinayak G",
+            "profile":"https://i.postimg.cc/sf6NHDpY/photo-1633332755192-727a05c4013d.jpg",
+            "email":"gvinayak@gmail.com",
+            "mobile":"+919897690909",
+            "location":"Calicut"
+        },
+        {
+            "name":"Minu Alex",
+            "profile":"https://i.postimg.cc/RV1X5Stp/4568047-min.jpg",
+            "email":"minualex@gmail.com",
+            "mobile":"+910990876654",
+            "location":"kochi"
+        }
+
+    ]
+}

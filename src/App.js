@@ -1,24 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+import details from './contacts.json'
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import { useState } from 'react';
+import Profile from './components/Profile';
+
 
 function App() {
+
+  const [clicked ,setclicked]=useState(false)
+   const singleView=(a)=>{
+    setclicked(a)
+   }
+  console.log(details.contacts)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className='App'>
+    <Navbar/>
+    {!clicked?(
+
+      details.contacts.map((contact,i)=>(
+        <div key={i} className='box' onClick={()=>singleView(contact)}>
+        <div>
+        <img className='img' src={contact.profile} alt="" />
+        </div>
+        <h1>{contact.name}</h1>
+        </div>
+        ))
+        ):(
+          <Profile data={clicked}/>
+
+        )}
+  <Footer/>
+  </div>
   );
 }
 
